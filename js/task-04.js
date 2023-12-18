@@ -1,6 +1,6 @@
 let counterValue = 0;
 
-const counterValueSpan = document.getElementById('value');
+const counterValueSpan = document.querySelector('#value');
 const decrementButton = document.querySelector('[data-action="decrement"]');
 const incrementButton = document.querySelector('[data-action="increment"]');
 
